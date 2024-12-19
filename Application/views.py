@@ -6,4 +6,4 @@ from django.template import RequestContext, Template
 
 # Create your views here.
 def home(req):
-    return render(req,"HTML/home.html",{"lavada":['lavadalo','manchivipettara']})
+    return render(req,"HTML/home.html",{"lavada":['manchivipettara']})
